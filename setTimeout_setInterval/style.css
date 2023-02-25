@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#time {
+    text-align: center;
+    margin: 50px;
+}
+#time p{
+    margin-top: 10px;
+}
+
+#interval {
+    text-align: center;
+}
+#interval p{
+    margin-top: 10px;   
+}
