@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.stopwatch{
+
+.stopwatch {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.card{
+
+.card {
     height: 150px;
     width: 300px;
     display: flex;
@@ -20,21 +22,25 @@
     justify-content: center;
     border: 2px solid black;
 }
-.time{
+
+.time {
     margin-bottom: 10px;
     font-size: x-large;
 }
-button{
+
+button {
     padding: 5px 10px;
     margin: 5px;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     border: none;
     border-radius: 10px;
     background-color: olive;
     transition: .4s;
 }
-button:active{
+
+button:active {
     opacity: 0.5;
 }
