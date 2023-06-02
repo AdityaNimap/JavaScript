@@ -1,0 +1,16 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+ let x = -121
+var isPalindrome = function(x) {
+    let temp = x;
+    let rem = 0 ;
+    let revNum = 0 ;
+    while(temp>0){
+        rem = temp%10;
+        revNum = revNum*10+rem;
+        temp = Math.floor(temp/10); 
+    }
+    return x===revNum
+};
